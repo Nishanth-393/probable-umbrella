@@ -1,16 +1,5 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
-
-int
-main ()
-{
+int main(){
   int n;
   double arr[100];
   printf ("Enter the number of elements (1 to 100): ");
@@ -28,9 +17,8 @@ main ()
 	  arr[0] = arr[i];
 	}
     }
-
   printf ("Largest element = %.2lf", arr[0]);
-
   return 0;
-
 }
+
+// BY Nishanth (RA2111003010829)
